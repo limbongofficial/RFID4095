@@ -43,8 +43,8 @@ void bsp_sampler_init_timebase( void )
         //htim.Init.Period                = ( 10000 );
         //htim.Init.Period                = ( 1000000 / 125 );
         //htim.Init.Period                = ( 1000000 / 16000 );
-        htim.Init.Period                = ( 1000000 / 32000 );
-        //htim.Init.Period                = ( 1000000 / 31250 );
+        //htim.Init.Period                = ( 1000000 / 32000 );
+        htim.Init.Period                = ( 1000000 / 31250 );
         //htim.Init.Period                = ( 1000000 / 15625 );
         //htim.Init.Period                = ( 1000000 / 7813 );
         htim.Init.ClockDivision         = TIM_CLOCKDIVISION_DIV1;

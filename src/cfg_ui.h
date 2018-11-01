@@ -12,7 +12,7 @@
 #define CFG_UI_SYSTICK_HZ               1000
 
 //#define CFG_UI_LED_FLSH_SHRT_mSEC       50
-#define CFG_UI_LED_FLSH_SHRT_mSEC       20
+#define CFG_UI_LED_FLSH_SHRT_mSEC       30
 #define CFG_UI_LED_FLSH_LONG_mSEC       400
 
 #define CFG_UI_KEY_DEBOUNCE_mSEC        50
